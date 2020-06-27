@@ -1,6 +1,9 @@
 # MusicStore_OracleDatabase
 ## Description
-Creating a Music Store Database design &amp; implementation using Oracle Database
+This project includes design and implementation of the music store object relational database in Oracle Database
+### Requirement
+Download Oracle SQL Developer to run the sql file: https://www.oracle.com/tools/downloads/sqldev-downloads.html
+
 ### Scenario
 OMDB maintains information about music albums available for purchase from an online music
 store. The database supports a website that allows users to query this information and search for
@@ -17,3 +20,8 @@ The following are the schema design for the database:
 ![RelationalModel](https://github.com/Gunawan888/MusicStore_OracleDatabase/blob/master/ERD.png)
 ### Relational Model
 ![RelationalModel](https://github.com/Gunawan888/MusicStore_OracleDatabase/blob/master/Relational_Model.png)
+
+### Execute the code
+Run Create_schema.sql then insert_data.sql to create the database
+
+For testing purposes, run query_testing.sql or simply create your own query
